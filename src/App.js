@@ -13,7 +13,7 @@ import PaginationExample from "./PaginationExample";
 function App() {
   return (
     <div>
-      <PaginationExample />
+      <PaginationExample url={"https://jsonplaceholder.typicode.com/posts"} />
     </div>
   );
 }
